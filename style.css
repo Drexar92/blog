@@ -1,0 +1,65 @@
+h1{ 
+	color : red ; /**/
+	font-variant: small-caps;/*font-variant permet de transformer toutes les  lettres en petites majuscules avec la valeur small-caps*/
+	letter-spacing: 1px; /*pour pouvoir augmenter l'espace en les letttres, on utilise la propriéte letter-spacing*/
+	font-family: ;/**/
+	font-weight :  ;/*font-weight permet de modifier l'épaisseur des lettres, lighter pour les affiner et bolder pour les épaissir*/
+}
+h2{
+	font-weight : lighter ;
+}
+body{
+	color : white ; /*color permet de changer la couleur de notre texte. On pourra utiliser le nom anglais d'une couleur, son code héxadécimal ou encore le code rgb */
+	background-color : rgb(135, 158, 212) ; /*backround-color permet de changer la couleur de fond de nos éléments*/
+	font-family : serif ;/*font-family permet de changer la police de notre site, c'est à dire notre style d'écriture. On peut choisir plusieurs valeurs entre serif, sans serif, cursive et monospace*/
+	font-size : 17px ;/*font-size permet de modifier la taille des lettres*/
+	line-height: 20px ; /*line-height permet de modifier l'espace qu'il y a entre 2 lignes de texte*/
+	letter-spacing: 1px ;/*letter-*/
+	text-align : center ;/*text-align permet de changer la position du texte en le mettant au centre avec la valeur center, à gauche avec left ou à droite avec la valeur right*/
+}
+p{
+	color : rgb(245, 239, 233)
+}
+li{
+	color : rgb(245, 239, 233)
+}
+ul {
+text-align: center;
+list-style-position: inside;
+}
+ol{
+	text-align: center;
+list-style-position: inside;
+}
+
+a:hover{/*grâce à cette sélection, il est possible de modifier la couleur de notre lien lorsqu'on passe notre souris dessus*/
+	color : rgb(237, 186, 135);
+}
+a{
+	color: rgb(240, 221, 201);
+	text-decoration: none;/*le code text-decoration avec pour valeur none permet de supprimer la barre de soulignement présente en dessousdu format par défaut liens*/
+}
+
+div{
+    border: solid;
+	border-width: 6px ;
+	border-color: rgb(0, 0, 0);
+	margin: 30px 50px;/*margin correspond à la marge extérieure*/
+	padding: 50px ;/*padding correspond à la marge intérieure*/
+	border-radius: 20px;/*border-radius permet d'arrondir les angles de nos bords*/
+	box-shadow: 10px 10px 20px black;/*box-shadow permet d'ajouter une ombre à nos éléments*/
+}
+iframe{
+	border-radius: 10px;
+}
+img{
+	border-radius: 10px;
+}
+
+.c{
+	color: rgb(227, 203, 148);
+}
+
+.vidéo{
+	margin : 30px 50px;
+}
